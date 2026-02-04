@@ -1,0 +1,86 @@
+# Maxwell Relations in Thermodynamics — A Computational Physics Approach
+
+This project explores the **Maxwell relations of thermodynamics** from a rigorous theoretical
+and computational perspective. The goal is to demonstrate **why these relations hold**, how they
+emerge from thermodynamic potentials, and how they can be used to **compute entropy, enthalpy,
+internal energy, and related quantities** using numerical methods.
+
+The project combines:
+- Formal theoretical derivations written in **LaTeX**
+- Symbolic and numerical computation in **Python**
+- Data-driven analysis and visualization of thermodynamic systems
+
+This repository is intended as a **physics-driven data science project**, bridging analytical
+thermodynamics with modern computational tools.
+
+---
+
+## 📖 Project Motivation
+
+In modern data science and scientific computing, the ability to **model physical systems from
+first principles** is increasingly valuable. While machine learning and automation can generate
+code, **physical insight, mathematical structure, and interpretability** remain essential.
+
+Thermodynamics is an ideal framework to demonstrate this:
+- It relies on a small set of fundamental laws
+- It produces non-trivial, testable relationships (Maxwell relations)
+- It connects abstract mathematics with measurable physical quantities
+
+This project shows how **theory → computation → data → insight** form a coherent pipeline.
+
+---
+
+## 🧠 Theoretical Foundations
+
+The theoretical development is fully documented in LaTeX and includes:
+
+- The first and second laws of thermodynamics
+- Thermodynamic potentials:
+  - Internal Energy (U)
+  - Enthalpy (H)
+  - Helmholtz Free Energy (F)
+  - Gibbs Free Energy (G)
+- Exact differentials and natural variables
+- Formal derivation of the four Maxwell relations
+- Physical interpretation of each relation
+
+📄 See: `theory/fundamentos_termodinamica.pdf`
+
+---
+
+## 🧮 Computational Approach
+
+The computational part of the project focuses on:
+
+- Symbolic derivation of thermodynamic identities using **SymPy**
+- Numerical evaluation of thermodynamic quantities
+- Construction of synthetic datasets from equations of state
+- Validation of Maxwell relations for:
+  - Ideal gases
+  - Real fluids (Van der Waals model)
+- Visualization of thermodynamic surfaces and phase behavior
+
+Main tools:
+- Python
+- NumPy
+- Pandas
+- SymPy
+- SciPy
+- Matplotlib / Seaborn
+
+---
+
+## 📊 Data Sources
+
+Depending on the system studied, data is obtained from:
+
+- Analytical equations of state (ideal gas, Van der Waals)
+- Public thermophysical property tables (e.g. NIST data)
+- Numerically generated datasets from thermodynamic models
+
+All datasets used or generated are documented in the `data/` directory.
+
+---
+
+## 📁 Repository Structure
+
